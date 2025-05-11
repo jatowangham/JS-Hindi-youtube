@@ -11,7 +11,7 @@ let ansValueNum = Number(score);
 
 let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // 1 = true
 // 0 = false
@@ -20,4 +20,15 @@ console.log(booleanIsLoggedIn);
 
 let someNum = 10;
 let stringNumber = String(someNum);
-console.log(typeof stringNumber, stringNumber);
+// console.log(typeof stringNumber, stringNumber);
+
+
+// -----------------operation--------------------------------
+let str1 = "jato";
+let str2 = "wangham";
+// console.log(str1 + " " + str2);
+
+let gameCounter = 100;
+++gameCounter // prefix increment
+// gameCounter++ // postfix increment
+console.log(gameCounter);
