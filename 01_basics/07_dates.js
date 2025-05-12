@@ -25,4 +25,3 @@ console.log(newDate.getDate());
 console.log(newDate.getMonth());
 console.log(newDate.getDay());
 console.log(newDate.getFullYear());
-
